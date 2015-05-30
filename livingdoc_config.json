@@ -1,0 +1,61 @@
+{
+    "config":{
+        "site_name": "Odoo Living Documentation Demo",
+        "logo_url": "",
+        "site_desc": "<p>A demo project to show how to generate living documentation with Behave and Odoo.</p>",
+        "menu": [
+            {
+                "name": "Features",
+                "type": "feature"
+            },
+            {
+                "name": "Task Management",
+                "type": "tag",
+                "expr": "^task_management_(.+)$"
+            },
+            {
+                "name": "Creating a task",
+                "type": "tag_page",
+                "expr": "^create_task_(.+)$"
+            }
+        ]
+    },
+    "features": [
+        {
+            "name": "Create a Task",
+            "image": "http://a.link/to/image/to/illustrate/feature",
+            "links": []
+        }
+    ],
+    "tags": [
+        {
+            "name": "task_management_create_task",
+            "title": "Creating tasks",
+            "image": "http://a.link/to/image/to/illustrate/tag",
+            "desc": "<p>Creating a task helps to get work done and makes it easier to see what people are doing.</p>",
+            "long_desc": "<p>Task creation in Odoo is super easy. Here's some advantages:</p><ul><li>Track time spent on project</li><li>Set deadlines</li><li>Assign a reviewer</li></ul>",
+            "links": [
+                {
+                    "name": "Odoo website",
+                    "url": "http://odoo.com"
+                }
+            ]
+        },
+        {
+            "name": "create_task_user",
+            "title": "Creating tasks for users",
+            "image": "http://a.link/to/image/to/illustrate/tag",
+            "desc": "<p>Tasks are made more powerful with user intergration</p>",
+            "long_desc": "<p>Take advantage of Odoo's built in user model and assign users to assign and review tasks you create.</p>",
+            "links": []
+        },
+        {
+            "name": "create_task_deadline",
+            "title": "Creating tasks for a deadline",
+            "image": "http://a.link/to/image/to/illustrate/tag",
+            "desc": "<p>Important tasks are made more important with deadlines</p>",
+            "long_desc": "<p>Show the importance of a task by setting a deadline, priority and moving it to a stage in your project straight away.</p>",
+            "links": []
+        }
+    ]
+}

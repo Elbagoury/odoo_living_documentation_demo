@@ -24,7 +24,7 @@
         {
             "name": "Create a Task",
             "title": "Create a Task",
-            "desc": "<p>Creating a task helps to get work done and makes it easier to see what people are doing.</p>",
+            "blurb": "<p>Creating a task helps to get work done and makes it easier to see what people are doing.</p>",
             "image": "http://gimpneek.github.io/odoo_living_documentation_demo/living_doc/static/create_task.png",
             "links": []
         }

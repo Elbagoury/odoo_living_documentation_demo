@@ -4,6 +4,9 @@ This repo contains demo code that accompanies my talk at Odoo Experience 2015. T
 
 `behave --livingdoc --livingdoc-directory=living_doc --livingdoc-meta=livingdoc_config.json /path/to/features/`
 
+## Demo
+[Living Documentation for this project](http://gimpneek.github.io/odoo_living_documentation_demo/living_doc/index.html "Living Documentation for this project")
+
 ## Installing the modified Behave
 Remove your existing Behave and run (may require sudo):
 `pip install git+https://github.com/Gimpneek/behave.git`
